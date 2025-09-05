@@ -1,0 +1,20 @@
+============================================================
+TEXT HUMANIZER OUTPUT
+Generated: 2025-09-05 17:18:28
+============================================================
+
+ORIGINAL TEXT:
+----------------------------------------
+Docker is an open-source platform designed to simplify the process of building, deploying, and running applications using containers. Containers package an application and all its dependencies into a lightweight, portable unit that can run consistently across different environments, from a developer’s laptop to production servers. Unlike traditional virtual machines, containers share the host operating system’s kernel, making them more efficient, faster to start, and less resource-intensive. Docker also provides tools for container orchestration, networking, and image management, making it easier for developers and organizations to adopt microservices architectures, improve scalability, and ensure smooth continuous integration and delivery (CI/CD) pipelines.
+
+HUMANIZED TEXT:
+----------------------------------------
+Indeed, containers share the host operating system ’. s actually, kernel, making them more efficient, faster to start, and less resource-intensive. Docker also provides tools for container orchestration, networking, and image management, making it easier for developers and organizations to adopt microservices architectures. Unlike traditional virtual machines, containers share the host operating system’s kernel, making them more efficient, faster to start, and less resource-intensive I mean,.
+
+ANALYSIS:
+----------------------------------------
+Original Perplexity: 22.46
+Final Perplexity: 23.58
+Iterations: 1
+Human Likelihood: 22.2%
+Verdict: AI-like
