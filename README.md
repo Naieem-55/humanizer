@@ -1,189 +1,210 @@
-# 🤖➡️👤 Professional Text Humanizer
+# AI Text Humanizer Pro
 
-> **Advanced AI-to-Human text transformation that creates genuinely human-sounding content**
+A sophisticated multi-stage text humanization pipeline that transforms AI-generated content into natural, human-like text using advanced NLP techniques and transformer models.
 
-Transform AI-generated text into natural, conversational writing that passes detection and sounds authentically human-written.
+## Features
 
-## 🌟 Features
+### Core Functionality
+- **Multi-Stage Processing Pipeline**: Transforms text through paraphrasing, burstiness injection, style enhancement, and perplexity optimization
+- **Smart Perplexity Scoring**: Uses GPT-2 to evaluate and ensure human-like text quality
+- **Adaptive Iteration**: Automatically refines text until it meets quality thresholds
+- **Real-time Analysis**: Provides instant feedback on text humanization quality
 
-### **Complete Sentence Rewriting**
-- **Analyzes sentence structure** and completely reconstructs formal/AI patterns
-- **Transforms entire expressions** rather than just individual words
-- **Contextual understanding** for intelligent sentence relationships
+### User Interfaces
+- **Professional GUI**: Modern desktop application with real-time processing
+- **Command Line Interface**: Simple terminal-based interaction
+- **Python API**: Integrate into your own applications
 
-### **Advanced Transformations**
-- ✅ **Formulaic Patterns** → Natural expressions
-- ✅ **Passive Voice** → Active, engaging language  
-- ✅ **Academic Jargon** → Conversational tone
-- ✅ **Complex Structures** → Clear, readable sentences
-- ✅ **Formal Writing** → Human personality injection
+## Installation
 
-### **Human Writing Patterns**
-- 🧠 **Thinking patterns** (hedging, uncertainty, personal experience)
-- 💬 **Conversational elements** (asides, corrections, questions)
-- 🔗 **Logical connections** between sentences for natural flow
-- 🎭 **Writing quirks** (parenthetical thoughts, emphasis, breaks)
+### Prerequisites
+- Python 3.8 or higher
+- 4GB RAM minimum (8GB recommended)
+- ~2GB disk space for models
 
-### **Professional Interface**
-- 🎨 Modern, clean design with professional color scheme
-- ⚙️ Customizable settings for different writing styles
-- 📊 Real-time statistics and readability analysis
-- 📋 Easy copy/download functionality
+### Setup
 
-## 🚀 Quick Start
-
-1. **Open** `index.html` in your web browser
-2. **Paste** your AI-generated text in the input area
-3. **Adjust settings** for your preferred style (Light Touch, Balanced, Maximum Human, Academic)
-4. **Click "Humanize Text"** to transform your content
-5. **Copy or download** the humanized result
-
-## 📋 Example Transformations
-
-### **Before (AI-Generated):**
-```
-"It is important to note that artificial intelligence demonstrates significant potential in various applications. The purpose of this technology is to optimize processes and facilitate decision-making."
+1. Clone the repository:
+```bash
+git clone https://github.com/Naieem-55/humanizer/
+python .\example.py
 ```
 
-### **After (Humanized):**
-```
-"Here's something worth knowing: AI shows huge potential in all kinds of applications. What we're trying to do with this technology is make processes better and help with decision-making."
-```
-
-## ⚙️ Settings Guide
-
-| Setting | Description | Recommended |
-|---------|-------------|-------------|
-| **Casual Level** | How informal the writing becomes | 70% for balanced tone |
-| **Contractions** | Use of contractions (can't, won't, etc.) | 75% for natural flow |
-| **Personal Touch** | Addition of personal expressions | 60% for engagement |
-| **Sentence Variation** | Structural changes to sentences | 80% for variety |
-| **Human Errors** | Minor typos for authenticity | 1-2% for realism |
-| **Idioms & Expressions** | Casual phrases and sayings | 30% for personality |
-
-## 🎯 Preset Styles
-
-- **Light Touch**: Minimal changes, maintains formality
-- **Balanced**: Natural conversational tone (recommended)
-- **Maximum Human**: Heavy transformation with personality
-- **Academic Style**: Professional but approachable
-
-## 💡 Advanced Features
-
-### **Sentence Analysis System**
-- Detects formulaic patterns, passive voice, complexity levels
-- Identifies formal language and nominalizations
-- Analyzes sentence relationships for better flow
-
-### **Human Thinking Patterns**
-- **Hedging**: "seems like", "probably", "I think"
-- **Personal Experience**: "from what I've seen", "in my experience"  
-- **Self-Corrections**: "big - well, huge", "or at least what I think"
-- **Conversational Asides**: "(at least in my opinion)", "(if that makes sense)"
-
-### **Contextual Connections**
-- **Smart transitions** based on sentence relationships
-- **Logical connectors** for cause/effect, contrast, examples
-- **Natural flow** between ideas
-
-## 🛠️ Technical Details
-
-### **Core Technology**
-- **Pure JavaScript** - No external dependencies
-- **Advanced NLP patterns** for sentence analysis
-- **Multiple transformation layers** for comprehensive humanization
-- **Real-time processing** with instant results
-
-### **File Structure**
-```
-paraphaser/
-├── index.html              # Main application
-├── styles.css              # Professional UI styling
-├── advanced-humanizer.js   # Core transformation engine
-├── app.js                  # Application logic
-├── enhanced-test.html      # Comprehensive testing suite
-└── README.md              # This file
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
 ```
 
-### **Browser Compatibility**
-- ✅ Chrome 70+
-- ✅ Firefox 65+
-- ✅ Safari 12+
-- ✅ Edge 79+
+The first run will automatically download required models (~500MB).
 
-## 📖 How It Works
+## Usage
 
-### **1. Text Analysis**
-The system analyzes your input text to identify:
-- Sentence structures and patterns
-- Formal language indicators
-- Passive voice constructions
-- Complex grammatical structures
+### GUI Application (Recommended)
 
-### **2. Complete Rewriting**
-Rather than simple word replacement, the humanizer:
-- Reconstructs entire sentence patterns
-- Transforms formal expressions into natural alternatives
-- Converts passive voice to active, engaging language
-- Simplifies complex structures while preserving meaning
+Launch the professional graphical interface:
 
-### **3. Human Pattern Injection**
-Adds authentic human writing characteristics:
-- Natural thinking patterns and uncertainty
-- Personal experience references
-- Conversational elements and asides
-- Self-corrections and clarifications
+```bash
+python gui.py
+```
 
-### **4. Flow Optimization**
-Creates natural connections between sentences:
-- Logical transitions based on content relationships
-- Varied sentence beginnings to avoid repetition
-- Contextual connectors for smooth reading
+Features:
+- Split-panel design for input and output
+- Real-time character counting
+- Copy/Paste functionality
+- Save results with timestamps
+- Light/Dark theme support
+- Adjustable processing parameters
 
-## 🎨 UI Features
+### Command Line Interface
 
-- **Professional Design**: Clean, modern interface suitable for business use
-- **Responsive Layout**: Works on desktop, tablet, and mobile devices
-- **Real-time Stats**: Word count, character count, readability analysis
-- **AI Detection Score**: Visual indicator of human-like quality
-- **Export Options**: Copy to clipboard or download as text file
+For terminal users:
 
-## 🧪 Testing
+```bash
+python example.py
+```
 
-Use `enhanced-test.html` for comprehensive testing:
-- **4 test cases** covering different transformation types
-- **Before/after comparisons** to see the improvements
-- **Interactive testing** with customizable settings
+Then paste your text and press Enter to process.
 
-## 🚀 Use Cases
+## How It Works
+
+### Processing Pipeline
+
+1. **Stage 1 - Paraphrasing**: Uses T5 transformer to semantically restructure text
+2. **Stage 2 - Burstiness**: Varies sentence lengths and structures for natural flow
+3. **Stage 3 - Style Injection**: Adds human-like elements (transitions, idioms, casual phrases)
+4. **Stage 4 - Perplexity Check**: Evaluates text using GPT-2 perplexity scoring
+5. **Stage 5 - Detection Testing**: Optional validation against AI detection
+
+## Configuration
+
+### Adjustable Parameters
+
+- `perplexity_threshold`: Target perplexity score (default: 25.0, lower = more human-like)
+- `max_iterations`: Maximum refinement cycles (default: 3)
+
+### Quality Metrics
+
+- **Perplexity Score**: Lower scores indicate more human-like text (target: <25)
+- **Human Likelihood**: Percentage estimate of human-like qualities (0-100%)
+- **Processing Iterations**: Number of refinement cycles performed
+
+### GUI Settings
+
+Access via settings button:
+- Modify perplexity threshold
+- Adjust maximum iterations
+- Toggle light/dark themes
+
+## Output
+
+Results are saved to `outputs/` directory with timestamp:
+- Format: `YYYYMMDD-HHMMSS.txt`
+- Contains: Original text, humanized text, and analysis metrics
+
+## File Structure
+
+```
+humanizer/
+├── humanizer.py       # Core transformation engine
+├── gui.py            # Professional GUI application
+├── example.py        # CLI interface
+├── requirements.txt  # Python dependencies
+├── outputs/          # Saved results directory
+└── README.md        # This file
+```
+
+## System Requirements
+
+### Minimum
+- OS: Windows 10/11, macOS 10.14+, Linux (Ubuntu 18.04+)
+- RAM: 4GB
+- Python: 3.8+
+- Storage: 2GB free space
+
+### Recommended
+- RAM: 8GB or more
+- GPU: CUDA-compatible for faster processing (optional)
+- Storage: 5GB free space
+
+## Dependencies
+
+- `torch>=2.0.0` - Deep learning framework
+- `transformers>=4.35.0` - Hugging Face transformers
+- `sentencepiece>=0.1.99` - Tokenization
+- `nltk>=3.8.0` - Natural language processing
+- `numpy>=1.24.0` - Numerical computing
+- `pyperclip>=1.9.0` - Clipboard operations
+
+## Troubleshooting
+
+### Model Loading Issues
+If models fail to load:
+```bash
+pip install --upgrade transformers torch
+```
+
+### Memory Errors
+For systems with limited RAM:
+- Close other applications
+- Reduce `max_iterations` to 1-2
+- Process shorter texts
+
+### NLTK Data
+If tokenization fails:
+```python
+import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
+```
+
+## Performance Tips
+
+1. **First Run**: Initial model download takes 2-5 minutes
+2. **Processing Speed**: ~5-10 seconds per paragraph
+3. **Batch Processing**: Use API for multiple texts
+4. **GPU Acceleration**: Install CUDA for 2-3x speedup
+
+## Use Cases
 
 - **Content Creation**: Transform AI drafts into engaging content
-- **Academic Writing**: Make research more accessible and readable
+- **Academic Writing**: Make research more accessible
 - **Business Communication**: Convert formal reports to approachable language
 - **Blog Posts**: Create conversational, engaging articles
-- **Marketing Copy**: Add personality and human touch to promotional content
+- **Marketing Copy**: Add personality to promotional content
 
-## 📝 Tips for Best Results
+## Tips for Best Results
 
-1. **Start with "Balanced" preset** for most use cases
-2. **Increase "Personal Touch"** for blog posts and informal content
-3. **Lower "Casual Level"** for business or academic content
-4. **Use "Maximum Human"** sparingly for creative writing
-5. **Review output** and adjust settings based on your audience
+1. Keep input text concise (under 500 words per batch)
+2. Use lower perplexity thresholds (20-25) for maximum human-likeness
+3. Allow 2-3 iterations for optimal results
+4. Review and fine-tune output as needed
 
-## 🤝 Contributing
+## License
 
-This is a self-contained application that can be easily modified:
-- Edit transformation patterns in `advanced-humanizer.js`
-- Customize UI styling in `styles.css`
-- Add new features through `app.js`
+MIT License - See LICENSE file for details
 
-## 📄 License
+## Contributing
 
-This project is open source and available for personal and commercial use.
+Contributions welcome! Please:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
+
+## Support
+
+For issues or questions:
+- Open an issue on GitHub
+- Check existing issues for solutions
+
+## Acknowledgments
+
+- Hugging Face for transformer models
+- OpenAI for GPT-2 perplexity scoring
+- NLTK for text processing utilities
 
 ---
 
-**Transform your AI-generated content into authentic, human-sounding text that engages readers and passes detection systems.**
+**Version**: 1.0.0  
+**Last Updated**: September 2025
 
-*Built with ❤️ for writers, content creators, and anyone who wants their text to sound genuinely human.*
+*Transform AI-generated content into authentic, human-sounding text that engages readers naturally.*
