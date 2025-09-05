@@ -1,0 +1,20 @@
+============================================================
+TEXT HUMANIZER OUTPUT
+Generated: 2025-09-05 17:28:42
+============================================================
+
+ORIGINAL TEXT:
+----------------------------------------
+wkhtmltopdf spins up a headless WebKit, renders HTML like a browser, applies CSS (especially print styles), then “prints” the result into a PDF at the location you specify.
+
+HUMANIZED TEXT:
+----------------------------------------
+Subsequently, wkhtmltopdf renders html like a browser, applies css (especially print styles) then “prints” the result into a pdf at the location you specify.
+
+ANALYSIS:
+----------------------------------------
+Original Perplexity: 235.51
+Final Perplexity: 276.55
+Iterations: 3
+Human Likelihood: 0.0%
+Verdict: AI-like

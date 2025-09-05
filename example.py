@@ -9,18 +9,8 @@ def main():
     print("TEXT HUMANIZER - Interactive Mode")
     print("="*60)
     
-    print("\nEnter your AI text to humanize (press Enter twice to finish):")
-    lines = []
-    while True:
-        line = input()
-        if line:
-            lines.append(line)
-        else:
-            if lines:  # If we have some text and user pressed enter
-                break
-            # If no text yet, continue waiting
-    
-    custom_text = '\n'.join(lines)
+    print("\nEnter your AI text to humanize:")
+    custom_text = input()
     
     if not custom_text.strip():
         print("No text provided. Exiting.")
